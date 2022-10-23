@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class N_1 {
+public class N01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine().toLowerCase();

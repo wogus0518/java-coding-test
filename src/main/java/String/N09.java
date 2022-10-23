@@ -1,6 +1,8 @@
+package String;
+
 import java.util.Scanner;
 
-public class N_9 {
+public class N09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();

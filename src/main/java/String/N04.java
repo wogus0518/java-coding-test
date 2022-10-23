@@ -1,10 +1,12 @@
+package String;
+
 import java.util.Scanner;
 
 /**
  * StringBuffer 클래스에서 제공해주는 reverse() 메서드를 이용해서
  * 문자열을 뒤집은 후 리스트에 저장
  */
-public class N_4 {
+public class N04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StringBuffer sb;

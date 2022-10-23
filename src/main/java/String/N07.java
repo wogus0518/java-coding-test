@@ -1,13 +1,13 @@
+package String;
+
 import java.util.Scanner;
 
-public class N_8 {
+public class N07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
 
-        final String REGEX = "[^a-z]";
-
-        String input = scanner.nextLine().toLowerCase().replaceAll(REGEX,"");
+        String input = scanner.nextLine().toLowerCase();
 
         sb.append(input);
         sb.reverse();

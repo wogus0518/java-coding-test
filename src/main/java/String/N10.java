@@ -1,8 +1,10 @@
+package String;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class N_10 {
+public class N10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] inputs = scanner.nextLine().split(" ");
